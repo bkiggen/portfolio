@@ -19,6 +19,12 @@ body {
   margin-left: 8px; */
   text-decoration: none;
   color: #186C90;
+  display: inline;
+}
+.title {
+  float: right;
+  font-family: "kirang haerang";
+  color: #186C90;
 }
 a:hover {
   text-decoration: none;
@@ -27,5 +33,11 @@ a {
   text-decoration: none;
 }
 .nav {
-  float:right;
+  display: inline;
+  justify-content: space-space-between;
+  text-align: center;
+}
+
+a {
+  margin-top: 5px;
 }
