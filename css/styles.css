@@ -57,7 +57,10 @@ a {
 }
 
 .subhead img {
-  border-bottom: 2px solid #186C90;
+  /* border-top: 2px solid #E3E1D1;
+  border-bottom: 2px solid #E3E1D1; */
+  border-left: 10px solid #E0C149;
+  border-right: 10px solid #E0C149;
 }
 
 .subhead h2 {
@@ -87,6 +90,7 @@ a {
   border-bottom: 2px solid #186C90;
   transition: all .5s ease-in-out;
   filter: grayscale(0%);
+  overflow: hidden;
 }
 
 .projimage:hover {
@@ -132,4 +136,29 @@ ul, ol {
   margin: 5px;
   padding-top: 25px;
   color: #186C90;
+}
+
+.interests {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.panel > .panel-heading {
+  background-color: #186C90;
+  color: #E0C149;
+  /* color: #E3E1D1; */
+}
+
+.panel > .panel-body {
+  background-color: #E0C149;
+  color: #186C90;
+}
+
+h4 {
+  margin-top: -10px;
+}
+
+.dirty {
+  color: brown;
 }
