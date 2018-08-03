@@ -1,27 +1,25 @@
 * {
   margin: 0px;
   padding: 0px;
-
 }
 
 body {
   background-color: #E3E1D1;
-  width:100%;
 }
 .jumbotron {
   background-color: #E0C149;
   width: 75%;
   height: 50px;
   margin: auto;
+
 }
 
 .logo {
   font-family: "kirang haerang";
-  /* padding: 2px;
-  margin-left: 8px; */
+  margin-left: 8px;
+  margin-top: 8px;
   text-decoration: none;
   color: #186C90;
-  display: inline;
 }
 a:hover {
   text-decoration: none;
@@ -34,13 +32,24 @@ a {
   text-align: center;
   color: #04171D;
   width: 100%;
+  font-family: arial;
+  background-color: #BD5D37;
+  color: #E0C149;
+}
+
+.subhead h2 {
+  padding: 3px;
 }
 
 .container {
-    border: 1px solid red;
+
 }
+
 .row {
-  margin-top: 20px;
   height: 500px;
   float:right;
+}
+
+.titles{
+  text-align: center;
 }
