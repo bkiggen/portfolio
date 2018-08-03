@@ -1,16 +1,18 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* border: 1px solid red; */
+
 }
 
 body {
   background-color: #E3E1D1;
+  width:100%;
 }
 .jumbotron {
   background-color: #E0C149;
-  width: 100%;
+  width: 75%;
   height: 50px;
+  margin: auto;
 }
 
 .logo {
@@ -21,23 +23,24 @@ body {
   color: #186C90;
   display: inline;
 }
-.title {
-  float: right;
-  font-family: "kirang haerang";
-  color: #186C90;
-}
 a:hover {
   text-decoration: none;
 }
 a {
   text-decoration: none;
 }
-.nav {
-  display: inline;
-  justify-content: space-space-between;
+
+.subhead {
   text-align: center;
+  color: #04171D;
+  width: 100%;
 }
 
-a {
-  margin-top: 5px;
+.container {
+    border: 1px solid red;
+}
+.row {
+  margin-top: 20px;
+  height: 500px;
+  float:right;
 }
