@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: raleway;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   width: 75%;
   height: 50px;
   margin: auto;
-
+  border-bottom: 1px solid #186C90;
 }
 
 .logo {
@@ -27,14 +28,16 @@ a:hover {
 a {
   text-decoration: none;
 }
-
+/* Blue: 186C90, Yellow: E0C149, Orange: BD5D37, Gray: E3E1D1  */
 .subhead {
   text-align: center;
-  color: #04171D;
+  color: #186C90;
   width: 100%;
-  font-family: arial;
-  background-color: #BD5D37;
-  color: #E0C149;
+  font-family: raleyway;
+}
+
+.subhead img {
+  border-bottom: 2px solid #186C90;
 }
 
 .subhead h2 {
@@ -42,14 +45,39 @@ a {
 }
 
 .container {
-
+  background-color: #E0C149;
+  width: 90%;
+  border-bottom: 1px solid #186C90;
 }
 
 .row {
   height: 500px;
-  float:right;
+  text-align: center;
 }
 
 .titles{
   text-align: center;
+  color: #186C90;
+  font-family: raleway;
+}
+
+.projimage {
+  width:100%;
+  padding-top: 10px;
+  border-bottom: 2px solid #186C90;
+}
+
+h3 {
+  color: #186C90
+  font-size: 40px;
+}
+
+.well {
+  background-color: #E3E1D1;
+  color: #186C90;
+  border-bottom: 2px solid #186C90;
+}
+
+ul {
+  list-style-type: none;
 }
