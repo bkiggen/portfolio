@@ -1,12 +1,30 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: raleway;
 }
 
 body {
   background-color: #E3E1D1;
+  font-family: raleway;
+  color: #04171D;
 }
+
+.headbar {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  text-align: right;
+}
+.headbar ol {
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.headbar ol li{
+  float: right;
+  padding: 2px;
+  margin: 5px;
+}
+
 .jumbotron {
   background-color: #E0C149;
   width: 75%;
@@ -22,6 +40,8 @@ body {
   text-decoration: none;
   color: #186C90;
 }
+
+
 a:hover {
   text-decoration: none;
 }
@@ -78,6 +98,14 @@ h3 {
   border-bottom: 2px solid #186C90;
 }
 
-ul {
+ul, ol {
   list-style-type: none;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #E0C149;
+  margin-top: 20px;
+  border-bottom: 2px solid #186C90;
 }
