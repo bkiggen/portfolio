@@ -1,17 +1,31 @@
 * {
-  background-color: #E3E1D1;
   margin: 0px;
   padding: 0px;
   /* border: 1px solid red; */
 }
 
-.top {
+body {
+  background-color: #E3E1D1;
+}
+.jumbotron {
   background-color: #E0C149;
   width: 100%;
-  height: 60px;
+  height: 50px;
 }
+
 .logo {
   font-family: "kirang haerang";
-  /* margin: 10px; */
-  background-color: #E0C149;
+  /* padding: 2px;
+  margin-left: 8px; */
+  text-decoration: none;
+  color: #186C90;
+}
+a:hover {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.nav {
+  float:right;
 }
