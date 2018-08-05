@@ -103,10 +103,18 @@ h3 {
   font-size: 40px;
 }
 
+.column-box {
+  height: 300px;
+}
+.column-box2{
+  height: 200px;
+}
+
 .well {
   background-color: #E3E1D1;
   color: #186C90;
   border-bottom: 2px solid #186C90;
+  height:150px;
 }
 
 ul, ol {
