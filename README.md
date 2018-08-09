@@ -11,7 +11,7 @@ This project is designed to represent my professional portfolio on a digital spa
 ## Setup/Installation Requirements
 
 
-* _Clone the repository using $git clone https://github.com/bkiggen/portfolio _
+* Clone the repository using $git clone https://github.com/bkiggen/portfolio 
 * _Open index.html in a web browser_
 
 
