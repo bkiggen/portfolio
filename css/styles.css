@@ -15,10 +15,12 @@ body {
   width: 100%;
   text-align: right;
 }
+
 .headbar ol {
   margin-right: 15%;
   margin-top: 5%;
 }
+
 .headbar ol li{
   float: right;
   padding: 2px;
@@ -41,13 +43,14 @@ body {
   color: #186C90;
 }
 
-
 a:hover {
   text-decoration: none;
 }
+
 a {
   text-decoration: none;
 }
+
 /* Blue: 186C90, Yellow: E0C149, Orange: BD5D37, Gray: E3E1D1  */
 .subhead {
   text-align: center;
@@ -57,8 +60,6 @@ a {
 }
 
 .subhead img {
-  /* border-top: 2px solid #E3E1D1;
-  border-bottom: 2px solid #E3E1D1; */
   border-left: 10px solid #E0C149;
   border-right: 10px solid #E0C149;
 }
@@ -106,6 +107,7 @@ h3 {
 .column-box {
   height: 300px;
 }
+
 .column-box2{
   height: 200px;
 }

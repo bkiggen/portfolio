@@ -1,6 +1,7 @@
 # Ben Kiggen's Professional Portfolio
 
 #### A digital space for projects created by Ben Kiggen, August 3, 2018
+#### See live at https://bkiggen.github.io/portfolio
 
 #### By Ben Kiggen
 
@@ -10,12 +11,9 @@ This project is designed to represent my professional portfolio on a digital spa
 ## Setup/Installation Requirements
 
 
-* _Clone the repository_
-* _Open the html file in a web browser_
+* _Clone the repository using $git clone https://github.com/bkiggen/portfolio _
+* _Open index.html in a web browser_
 
-## Known Bugs
-
-_No known bugs_
 
 ## Support and contact details
 
