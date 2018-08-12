@@ -21,7 +21,7 @@ _For any issues or requests to contribute, please email benkiggen@gmail.com_
 
 ## Technologies Used
 
-_This site was created with HTML, CSS, and bootstrap. Icons and fonts are from Font Awesome and Google Fonts, respectively._
+_This site was created with HTML, CSS, JS, jQuery, and bootstrap. Icons and fonts are from Font Awesome and Google Fonts, respectively._
 
 ### License
 
