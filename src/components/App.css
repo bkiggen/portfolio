@@ -1,0 +1,21 @@
+.App {
+  color: white;
+  text-align: center;
+  height: 1000px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.hand {
+  animation: hand 5s linear infinite;
+  margin-top: 100px;
+}
+
+@keyframes hand {
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
